@@ -1,12 +1,12 @@
 <html>
     <head>
-        <title>Welcome!</title>
+        <title>Vote ELigibility Determiner</title>
     </head>
     <body>
-        <h1>Hello world!</h1>
-        <p>We can build a full webpage here</p>
-        <form>
-            <input type="text" name="nickname" placeholder="Enter your nickname"/>
+        <h1>Hello!</h1>
+        <p>Welcome to this vote eligibility determiner. Enter your age to see the results</p>
+        <form method="POST" action="/results">
+            <input type="text" name="age" placeholder="Enter your age"/>
             <input type="submit" value="Submit"/>
         </form>
     </body>
